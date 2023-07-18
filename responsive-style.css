@@ -1,0 +1,24 @@
+/* responsive layout for mobile device-576px(bootstrap breakpoints) */
+
+@media screen and (max-width: 576px){
+   
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        margin-top: 10px;
+    }
+}
+.nav-logo-container{
+    margin-top: 20px;
+}
+
+.nav-item-container{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.nav-item-container a{
+    margin-top: 20px;
+}
