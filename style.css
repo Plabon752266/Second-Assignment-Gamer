@@ -138,10 +138,53 @@
     width: 100%;
     height: auto;
 }
+/* banner1 section ends here  */
+
+/* cards container start  */
+
+.cards-container{
+    border: 2px solid green;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-items{
+  
+}
+
+h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 18px;
+    color: #534C64;
+    font-weight: 400;
+    
+}
+
+.color-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card{
+    border: 2px solid #0B0223;
+}
+.card p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #534C64;
+    font-weight: 500;
+}
 
 
 
-
-
-
-/* banner1 section ends here   */
+/* cards container end  */
