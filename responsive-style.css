@@ -4,21 +4,19 @@
    
     .nav-container{
         flex-direction: column;
-        width: 100%;
-        gap: 20px;
+      
+    }
+    .nav-logo-container{
         margin-top: 10px;
     }
-}
-.nav-logo-container{
-    margin-top: 20px;
-}
+    
+    .nav-item-container{
+        width: 100%;
+        flex-direction: column;
+    }
 
-.nav-item-container{
-    width: 100%;
-    flex-direction: column;
-    margin-top: 10px;
-}
+    .nav-item-container a{
+        margin-top: 20px;
+    }
 
-.nav-item-container a{
-    margin-top: 20px;
 }
