@@ -1,22 +1,126 @@
 /* responsive layout for mobile device-576px(bootstrap breakpoints) */
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
    
-    .nav-container{
-        flex-direction: column;
-      
+    .card-items {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
-    .nav-logo-container{
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    /* nav items  */
+    .nav-container {
+        flex-direction: column;
+
+    }
+
+    .nav-logo-container {
         margin-top: 10px;
     }
-    
-    .nav-item-container{
+
+    .nav-item-container {
         width: 100%;
         flex-direction: column;
     }
 
-    .nav-item-container a{
+    .nav-item-container a {
         margin-top: 20px;
+    }
+
+    /* banner one style  */
+
+    .banner-one-container {
+        flex-direction: column;
+    }
+
+    .banner-one-text {
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-one-image {
+        width: 80%;
+    }
+
+    /* play online games cards container style here */
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .color-text {
+        font-size: 30px;
+    }
+
+    .card-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    /* position banner start */
+
+    .games-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .games-text {
+        width: 100%;
+        margin-left: 5px;
+        margin-bottom: 20px;
+       
+       
+    }
+
+    /* rectangle section here */
+
+    .rectangle-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+
+
+
+
+
+
+    /* footer start here */
+
+    .footer-logo-container {
+        width: 100%;
+    }
+
+    .text-content {}
+
+    .icons-container {
+        gap: 50px;
+    }
+
+    .policy-content {
+        gap: 60px;
+    }
+
+    .copyright-text {
+        width: 60%;
+        margin-top: 50px;
+        /* margin-left: ; */
+        padding-bottom: 50px;
     }
 
 }
