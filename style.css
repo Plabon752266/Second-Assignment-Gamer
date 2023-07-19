@@ -119,8 +119,8 @@
 
 }
 
-.banner-button1{
-    background-color:#4EC5F7 ;
+.banner-button1 {
+    background-color: #4EC5F7;
     padding: 21px 40px;
     gap: 10px;
     border-radius: 48px;
@@ -138,36 +138,34 @@
     width: 100%;
     height: auto;
 }
+
 /* banner1 section ends here  */
 
 /* cards container start  */
 
-.cards-container{
+.cards-container {
     border: 2px solid green;
     max-width: 1400px;
     margin: 0 auto;
-    display: grid;  
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.card-items{
-  
-}
 
-h3{
+h3 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-p{
+p {
     font-size: 18px;
     color: #534C64;
     font-weight: 400;
-    
+
 }
 
-.color-text{
+.color-text {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
@@ -175,16 +173,66 @@ p{
     font-weight: 700;
 }
 
-.card{
+.card {
     border: 2px solid #0B0223;
 }
-.card p{
+
+.card p {
     margin-top: 5px;
     font-size: 20px;
     color: #534C64;
     font-weight: 500;
 }
 
-
-
 /* cards container end  */
+
+/* position banner start */
+
+.play-games-container {
+    border: 2px solid red;
+
+}
+
+.games-container {
+    border: 2px solid violet;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.games-img {
+    border: 2px solid rgb(175, 225, 13);
+    width: 50%;
+    position: relative;
+}
+
+.games-img img {
+    width: 660px;
+}
+
+
+.position-image {
+    width: 280px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -22%;
+    left: 74%;
+}
+
+
+
+.games-text {
+    border: 2px solid rgb(13, 225, 31);
+    width: 35%;
+    margin-left: 180px;
+}
+
+.games-text h3 p{
+    width: 420px;
+    margin-left: 100px;
+}
