@@ -213,7 +213,6 @@ p {
     width: 660px;
 }
 
-
 .position-image {
     width: 280px;
     height: auto;
@@ -221,18 +220,38 @@ p {
     align-items: center;
     position: absolute;
     bottom: -22%;
-    left: 74%;
+    left: 71%;
 }
-
-
 
 .games-text {
     border: 2px solid rgb(13, 225, 31);
-    width: 35%;
-    margin-left: 180px;
+    width: 40%;
+    margin-left: 130px;
 }
 
 .games-text h3 p{
     width: 420px;
     margin-left: 100px;
 }
+/* position banner ends */
+/* games genre rectangle box style start here */
+
+.rectangle-container{
+    border: 2px solid slateblue;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* games genre rectangle box style ends here */
