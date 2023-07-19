@@ -91,15 +91,6 @@
     .rectangle-container{
         grid-template-columns: repeat(3, 1fr);
     }
-
-
-
-
-
-
-
-
-
     /* footer start here */
 
     .footer-logo-container {
@@ -117,9 +108,9 @@
     }
 
     .copyright-text {
-        width: 60%;
+        width: 50%;
         margin-top: 50px;
-        /* margin-left: ; */
+        margin-left:150px;
         padding-bottom: 50px;
     }
 
