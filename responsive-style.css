@@ -1,5 +1,5 @@
 /* responsive layout for mobile device-576px(bootstrap breakpoints) */
-@media screen and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 768px){
    
     .card-items {
         grid-template-columns: repeat(2, 1fr);
@@ -45,6 +45,12 @@
     .banner-one-image {
         width: 80%;
     }
+
+    .margin{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
 
     /* play online games cards container style here */
 
